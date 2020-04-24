@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingEnd="24dp"
+            android:paddingStart="24dp">
+
+            <Button
+                android:id="@+id/button_barcode_generator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barcode Generator"/>
+
+            <Button
+                android:id="@+id/button_video_player"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Video player"/>
+
+            <Button
+                android:id="@+id/button_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Share file"/>
+
+            <Button
+                android:id="@+id/button_share_asset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Share asset file"/>
+
+            <Button
+                android:id="@+id/button_share_bitmap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Share asset bitmap"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
